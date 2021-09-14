@@ -1,0 +1,30 @@
+.linhafilme{
+    margin-bottom: 30px;
+}
+
+.linhafilme h2 {
+    margin: 0 0 0 30px;
+}
+
+.linhafilme--listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.linhafilme--list{
+    width: 99999px;
+}
+.linhafilme--item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.linhafilme--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3;
+}
+
+.linhafilme--item img:hover{
+    transform: scale(1.0);
+}

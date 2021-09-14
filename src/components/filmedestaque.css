@@ -1,0 +1,86 @@
+.destaque{
+    height: 100vh;
+}
+
+.destaque-vertical{
+    width: inherit;
+    height: inherit; 
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.destaque-horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 20%, transparent 70%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.destaque-name{
+    font-size:60px;
+    font-weight: bold;
+}
+
+.destaque-info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.destaque-ponto, .destaque-ano, .destaque-temporada{
+
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.destaque-ponto {
+    color: #46d369;
+}
+
+.destaque-descricao{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+}
+
+.destaque-butons{
+    margin-top: 15px;
+}
+
+.destaque-btn-assisti, .destaque-btn-lista{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2;
+}
+
+
+.destaque-btn-assisti:hover, .destaque-btn-lista:hover{
+
+    opacity: 0.7;
+
+}
+
+
+.destaque-btn-assisti{
+    background-color:#fff;
+    color:#000;
+}
+.destaque-btn-lista{
+    background-color: #333;
+    color:#fff;
+}
+
+.destaque-genero{
+    margin-top:15px;
+    font-size: 18px;
+    color: #999;
+}
